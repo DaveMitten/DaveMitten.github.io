@@ -28,8 +28,8 @@
 
 // Font.
 	$font: (
-		family:				('Open Sans', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('personal_servicesregular', Helvetica, sans-serif),
+		family-fixed:		('personal_servicesregular', monospace),
 		weight:				400,
 		weight-bold:		600,
 		weight-extrabold:	800
@@ -38,7 +38,7 @@
 // Palette.
 	$palette: (
 		bg:					#1b1d1f,
-		fg:					#e4e2e0,
+		fg:					#000000,
 		fg-bold:			#e4e2e0,
 		fg-light:			rgba(255,255,255,0.5),
 		border:				#fff,
@@ -49,7 +49,7 @@
 		accent1: (
 			bg:				#1b1d1f,
 			fg-bold:		#e4e2e0,
-			fg:				#e4e2e0,
+			fg:				#000000,
 			fg-light:		mix(#21b2a6, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
@@ -60,7 +60,7 @@
 		accent2: (
 			bg:				#00ffcc,
 			fg-bold:		#e4e2e0,
-			fg:				mix(#00ffcc, #ffffff, 25%),
+			fg:				#000000,
 			fg-light:		mix(#00ffcc, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),

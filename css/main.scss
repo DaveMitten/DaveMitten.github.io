@@ -32,6 +32,15 @@ $baseurl: '{{ site.baseurl }}/images';
 		grid: ( gutters: 1.5em )
 	));
 
+  @font-face {
+    font-family: 'personal_servicesregular';
+    src: url('personal_services-webfont.woff2') format('woff2'),
+         url('personal_services-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Basic */
 
 	@-ms-viewport {
